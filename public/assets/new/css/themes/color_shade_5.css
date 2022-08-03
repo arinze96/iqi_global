@@ -1,0 +1,97 @@
+/*------------------------------------------*/
+/*    For Text Color 
+/*------------------------------------------*/
+/* Teal Color */
+h1, .theme-accordian.white .panel-title > a i, .counter-style-1.light-bg span,
+.box-icon-1 i, .counter, .box-icon-4 i, .box-icon-3 i, .service-icon, .bordered-nav .top-text a, 
+.dropdown-item.active, .dropdown-item:focus, .dropdown-item:hover, .dropdown-item:active, 
+.dropdown-menu > li.show > a, .icons-listing.theme-orange li i, .link-oragne, .blockquote-2:before, 
+.blockquote-3:before, .testimonial-wrap h4 span, .copyrights a, .top-border .top-bar-right i, 
+.blog-wrap h4 a:hover, .meta-box a:hover, .faq-section.theme-style .panel-title a span, 
+.theme-style .panel-title a:hover, .blockquote-1:before, .dropcap, .pricing, .blog-category a:hover,
+.recent-post ul li .icon-text a:hover, .cases-wrap-sidebar h3 a:hover, .blog-details h3 a:hover,
+.txt-orange, .share-this .social-icons ul li a:hover, .link-light:hover, .blockquote-1 footer cite,
+.footer-links ul li a:hover {
+	color: #fcdb02 !important;
+}
+
+
+/* Blue Color */
+.txt-blue, .counter-style-1.light-bg i, .box-icon-4 h3, .box-icon-3-text h3, .box-icon-2 h3,
+.link-oragne:hover, .list-colored li i, .testimonial-wrap h4, .copyrights a:hover, .services-img .text h3,
+.copyrights a:hover, .team-soical a:hover, .request-btn a#search_home, .widgets-sidebar h3,
+.footer-links h3 {
+	color: #214d63;
+}
+/*------------------------------------------*/
+/*    For Background Color 
+/*------------------------------------------*/
+
+/* Pink Color */
+.breadcrumbs-wrap h1:after,
+.bg-orange,
+.theme-accordian .panel-heading, .skillbar-bar,
+.theme-accordian-rounded.circle .panel-title > a i, #back-top a,
+.theme-tab .nav-tabs > li.active > a, .theme-tab .nav-tabs > li.active > a:hover, 
+.theme-tab .nav-tabs > li.active > a:focus, .theme-tab .nav-tabs .nav-link.active,
+.tab-style1 .nav-tabs > li.active > a, .tab-style1 .nav-tabs > li.active > a:focus, 
+.tab-style1 .nav-tabs > li.active > a:hover, .tab-style1 .nav-tabs > li > a:hover, 
+.tab-style1 .nav-tabs .nav-link.active, .welcome-section-alt div:nth-child(3) .box-icon-1,
+.box-icon-2 i, .practice-area-wrap:hover .header, .header-logo-top.top-transparent nav,
+.video-play-button:before, .video-play-button:after, ul#filters li.active a, 
+.theme-tab .nav > li > a:hover, .tab-style2 .nav-tabs > li.active > a, 
+.tab-style2 .nav-tabs > li.active > a:focus, .tab-style2 .nav-tabs > li.active > a:hover, 
+.tab-style2 .nav-tabs > li > a:hover, .tab-style2 .nav-tabs .nav-link.active, .dropcap2,
+.blog-category a:after, .pagination a:hover, .pagination a.dark:hover, .meta-box-wrap a.post-date:hover,
+.comment-date:hover, .comments-reply:hover, .owl-controls .owl-dot.active span, 
+.owl-controls.clickable .owl-dot:hover span, .owl-controls .owl-dot:hover span, .alert-theme {
+	background-color: #fcdb02;
+}
+
+/* Blue Color */
+.bg-navy-blue, .box-icon-1:hover i, .welcome-section-alt .box-icon-1,
+.theme-tab .nav-tabs > li > a, .bg-blue-light, .contact-details, .practice-area-wrap .header,
+.owl-nav .owl-prev, .owl-nav .owl-next, .bg-overlay.blue, 
+.header-logo-top.top-transparent .navbar-nav .active .nav-link, 
+.header-logo-top.top-transparent .navbar-nav .active .nav-link:hover, 
+.header-logo-top.top-transparent .navbar-nav .nav-item:hover > a, 
+.header-logo-top.top-transparent .navbar-nav .nav-link:hover, ul#filters li a:hover, .pagination a.dark,
+.meta-box-wrap a.post-date, .owl-controls .owl-dot span, .top-transparent .navbar-nav .nav-item:hover > a,
+.welcome-section-alt .box-icon-1:hover i, .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next{
+	background-color: #214d63;
+}
+
+/*------------------------------------------*/
+/*    For Border Color 
+/*------------------------------------------*/
+
+/* Teal Color */
+.bordered.bg-orange, .box-icon-1 i, .about-us-box, .best-seller, .heading-left-border {
+    border-color: #fcdb02;
+}
+
+
+/* Blue Color */
+.bordered.bg-navy-blue,
+.top-transparent .navbar-nav .active .nav-link, 
+.top-transparent .navbar-nav .active .nav-link:hover, 
+.top-transparent .navbar-nav .nav-item:hover > a, 
+.top-transparent .navbar-nav .nav-link:hover,
+.counter-style-1.light-bg, .skillbar-wrap .clearfix, .box-icon-1:hover i {
+    border-color: #214d63;
+}
+
+
+/*------------------------------------------*/
+/*    Extra Color Styles
+/*------------------------------------------*/
+.header-fullpage.fixed, .overlay, .header-logo-top.top-transparent nav {
+    background: rgba(33, 77, 99, 0.8) !important;
+}
+.box-icon-2, ul#filters li a{
+	background: #f8f9fa;
+}
+
+.service-icon, .top-transparent.fixed nav, .header-logo-top .header-fullpage.fixed{
+	box-shadow: 0px 6px 10px 0px rgba(252, 219, 2, 0.2);
+}
