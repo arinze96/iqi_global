@@ -294,9 +294,9 @@ class UserController extends Controller
     public function register(Request $request, $ref = null)
     {
         if ($request->method() == "GET") {
-            if (!empty($request->user()->id)) {
-                return redirect()->route('user.verifyEmail');
-            }
+            // if (!empty($request->user()->id)) {
+            //     return redirect()->route('user.verifyEmail');
+            // }
             return view("auth.register", ["ref" => $ref]);
         }
         $data = (object) $request->all();
@@ -332,10 +332,10 @@ class UserController extends Controller
             'status' => 1,
         ]);
 
-        $VerifyEmail =  VerifyUser::create([
-            "token" => Str::random(60),
-            "user_id" => $user->id
-        ]);
+        // $VerifyEmail =  VerifyUser::create([
+        //     "token" => Str::random(60),
+        //     "user_id" => $user->id
+        // ]);
 
         if (!empty($user)) {
             Account::create([
@@ -353,35 +353,20 @@ class UserController extends Controller
                 "referral_count" => $refCount + 1
             ]);
 
-            $veuser =  VerifyUser::where("user_id", "=", $user->id)->get()->first();
+            // $veuser =  VerifyUser::where("user_id", "=", $user->id)->get()->first();
             // dd($veuser->token);
 
             // send email
-            // $details = [
-            //     "appName" => config("app.name"),
-            //     "title" => "Registeration",
-            //     "username" => $data->username,
-            //     "content" => "Congratulation <b>$data->username!</b><br>
-            //             You have successfully registered your personal account on " . config("app.domain") . " website! <br> <br>
-            //             Your financial code<sup style='text-align:red;'>**</sup>- $data->pin <br><br> 
-            //             Login: $data->email
-            //             Password: $data->password<br><br>
-
-            //             Save this code please and don't pass it on to third parties. <br><br> 
-            //             You need a financial code when you <br> withdraw funds from your " . config("app.name") . " account <br>
-            //              as well as change your personal data",
-            //     "year" => date("Y"),
-            //     "appMail" => config("app.email"),
-            //     "domain" => config("app.url")
-            // ];
-
             $details = [
                 "appName" => config("app.name"),
-                "title" => "Verify Account",
+                "title" => "Registeration",
                 "username" => $data->username,
-                "content" => "Hello <b>$data->username!</b><br> <br> <br>
-                Click the link below to verify your account <br> " . route("user.completeverifyEmail", [$veuser->token, $user->id]) . " 
-                        <br> <br>
+                "content" => "Congratulation <b>$data->username!</b><br>
+                        You have successfully registered your personal account on " . config("app.domain") . " website! <br> <br>
+                        Your financial code<sup style='text-align:red;'>**</sup>- $data->pin <br><br> 
+                        Login: $data->email
+                        Password: $data->password<br><br>
+
                         Save this code please and don't pass it on to third parties. <br><br> 
                         You need a financial code when you <br> withdraw funds from your " . config("app.name") . " account <br>
                          as well as change your personal data",
@@ -389,6 +374,21 @@ class UserController extends Controller
                 "appMail" => config("app.email"),
                 "domain" => config("app.url")
             ];
+
+            // $details = [
+            //     "appName" => config("app.name"),
+            //     "title" => "Verify Account",
+            //     "username" => $data->username,
+            //     "content" => "Hello <b>$data->username!</b><br> <br> <br>
+            //     Click the link below to verify your account <br> " . route("user.completeverifyEmail", [$veuser->token, $user->id]) . " 
+            //             <br> <br>
+            //             Save this code please and don't pass it on to third parties. <br><br> 
+            //             You need a financial code when you <br> withdraw funds from your " . config("app.name") . " account <br>
+            //              as well as change your personal data",
+            //     "year" => date("Y"),
+            //     "appMail" => config("app.email"),
+            //     "domain" => config("app.url")
+            // ];
             $adminDetails1 = [
                 "appName" => config("app.name"),
                 "title" => "Registeration",
