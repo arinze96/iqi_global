@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Bizzainvest'),
+    'name' => env('APP_NAME', 'Stableincome'),
     'description' => env('APP_DESCRIPTION', 'Grow Your Passive Income Hourly and Increase Your Earnings Hourly'),
-    'chat_link' => env('CHAT_LINK', 'Iqiglobalfx'),
+    'chat_link' => env('CHAT_LINK', 'Stableincome'),
     'email' => env('APP_EMAIL', ''),
     'facebook' => env('APP_FACEBOOK', ''),
     'twitter' => env('APP_TWITTER', ''),

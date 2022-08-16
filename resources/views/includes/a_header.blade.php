@@ -1,3 +1,9 @@
+<div class="preloader bg-orange">
+    <div class="content">
+        <img src="images/logo_anim.svg" alt="">
+        <div class="nk-preloader-spinner"></div>
+    </div>
+</div>
 <header>
     <div class="topbar d-flex align-items-center">
         <nav class="navbar navbar-expand">
