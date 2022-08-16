@@ -11,7 +11,16 @@
                                 Melbourne VIC 3000, Australia
                             </div>
                         </div><!-- Contact Details Footer End -->
-
+                            
+                        <!-- Contact Details Footer -->
+                        <div class="col-sm-12 col-md-4">
+                          <div class="contact-details">
+                              <i class="icofont icofont-envelope"></i>
+                              <a href="#">support@stableincome.uk</a><br>
+                              <a href="#"></a>
+                          </div>
+                      </div><!-- Contact Details Footer End -->
+                      
                         <!-- Contact Details Footer -->
                         <div class="col-sm-12 col-md-4">
                             <div class="contact-details">
@@ -21,14 +30,7 @@
                             </div>
                         </div><!-- Contact Details Footer End -->
 
-                        <!-- Contact Details Footer -->
-                        <div class="col-sm-12 col-md-4">
-                            <div class="contact-details">
-                                <i class="icofont icofont-envelope"></i>
-                                <a href="#">support@contsultit.com</a><br>
-                                <a href="#">info@contsultit.com</a>
-                            </div>
-                        </div><!-- Contact Details Footer End -->
+                        
 
                     </div>
                 </div>

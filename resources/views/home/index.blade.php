@@ -85,7 +85,7 @@
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
                             data-fontsize="['16','16','16','16']" data-lineheight="['30','30','30','20']">Combining a
-                            Transparent Trading and investment Environment for both experienced traders and non
+                            Transparent Trading and investment Environment <br> for both experienced traders and non
                             experienced traders.</div>
 
                         <!-- LAYER NR. 12 -->
@@ -272,7 +272,7 @@
                             <i class="icofont icofont-black-board"></i>
                             <h3>Marketing Plan</h3>
                             <p>Planning moves on the financial market is an essential skill needed for success in the
-                                financial market, at iqiglobalfx we offer market planning </p>
+                                financial market, atSTABLEINCOMEwe offer market planning </p>
                         </div>
                     </div><!-- Services Icon End -->
                     <div class="col-lg-4 col-md-6">
@@ -383,7 +383,7 @@
                             <h1 class="heading-main text-left mb-4 wow fadeInDown" data-wow-duration="0"
                                 data-wow-delay="0s">
                                 <span>Why Choose</span>
-                                IQI GLOBALFX!
+                                STABLEINCOME!
                             </h1>
                             <!-- Heading Main -->
 
@@ -630,7 +630,7 @@
                             <h1 class="heading-main text-left mb-4 wow fadeInDown" data-wow-duration="0"
                                 data-wow-delay="0s">
                                 <span>Guidelines</span>
-                                IQI GLOBALFX!
+                                STABLEINCOME!
                             </h1>
                             <!-- Heading Main -->
 

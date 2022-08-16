@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no" />
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="{{ asset('assets/images/up.png') }}">
 
 <meta name="author" content="Mannat Studio">     
 <meta name="description" content="Consultit is a HTML template exclusively built for finance, accounting, financial, brokerage, coaching, law office, bussines planning and consulting websites.">
@@ -59,7 +59,7 @@
     (function(){
     var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
     s1.async=true;
-    s1.src='https://embed.tawk.to/62d1cb767b967b117999c10e/1g81o5i24';
+    s1.src='https://embed.tawk.to/62fba4c337898912e963542f/1gajfn7j5';
     s1.charset='UTF-8';
     s1.setAttribute('crossorigin','*');
     s0.parentNode.insertBefore(s1,s0);
@@ -73,8 +73,8 @@
           width: 250px;
           height: 70px;
           background: #78cc5d;
-          transform: translateX(-100%);
-          -webkit-transform: translateX(-100%);
+          transform: translateX(-70%);
+          -webkit-transform: translateX(-70%);
         }
 
         #caret: {
@@ -108,7 +108,7 @@
   
         @-webkit-keyframes slide-in {
           100% {
-            -webkit-transform: translateX(30%);
+            -webkit-transform: translateX(20%);
           }
         }
   
@@ -117,7 +117,7 @@
             transform: translateX(0%);
           }
           100% {
-            transform: translateX(-150%);
+            transform: translateX(-100%);
           }
         }
   
@@ -126,7 +126,7 @@
             -webkit-transform: translateX(0%);
           }
           100% {
-            -webkit-transform: translateX(-150%);
+            -webkit-transform: translateX(-100%);
           }
         }
       </style>

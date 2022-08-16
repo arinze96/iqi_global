@@ -206,7 +206,7 @@
 
 </script>
 
-<script type="text/javascript">
+{{-- <script type="text/javascript">
   baseUrl = "https://widgets.cryptocompare.com/";
   var scripts = document.getElementsByTagName("script");
   var embedder = scripts[scripts.length - 1];
@@ -232,7 +232,7 @@
       s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
       embedder.parentNode.appendChild(s);
   })();
-</script>
+</script> --}}
 
 <script>
   GrowlNotification.notify({

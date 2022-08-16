@@ -19,7 +19,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width">
 
-    <title>Iqi GlobalFX Freuently Asked Question</title>
+    <title>STABLEINCOME Freuently Asked Question</title>
 
     @include('includes.home_header')
 </head>
@@ -58,13 +58,13 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne"><span
-                                                class="fa fa-minus"></span> What Does Iqi GlobalFX Do?</a>
+                                                class="fa fa-minus"></span> What Does STABLEINCOME Do?</a>
                                     </h4>
                                 </div>
                                 <div id="collapseOne" class="panel-collapse collapse show">
                                     <div class="panel-body">
                                         <div class="col-md-8">
-                                            <p>Iqi GlobalFX is smart cloud mining service, deriving from mining
+                                            <p>STABLEINCOME is smart cloud mining service, deriving from mining
                                                 efficiency and costs of a physical cryptocurrencies mining.
                                                 We provide smart cloud mining service, developed and masterminded by
                                                 various cryptocurrency enthusiansts
@@ -79,7 +79,7 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"><span
-                                                class="fa fa-plus"></span>How do I get started with Iqi GlobalFX
+                                                class="fa fa-plus"></span>How do I get started with STABLEINCOME
                                             Trading??</a>
                                     </h4>
                                 </div>

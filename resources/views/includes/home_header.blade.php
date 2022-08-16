@@ -19,7 +19,7 @@
                      </div>
                      <div class="top-text">
                          <small class="txt-black">Emaii Us</small>
-                         <a href="#">support@consutlit.com</a>
+                         <a href="#">support@stableincome.uk</a>
                      </div>
                      <div class="top-text">
                          <small class="txt-black">Phone Number</small>
@@ -49,7 +49,7 @@
          <div class="container-lg text-nowrap px-0">
              <div class="d-flex mr-auto">
                  <a class="navbar-brand" href="index.html">
-                     <img src="images/logo_white.png" alt="">
+                     <img src="{{ asset('assets/images/stableincome.png') }}" alt="">
                  </a>
              </div>
              <!-- Topbar Request Quote Start -->
@@ -98,6 +98,12 @@
                      <li class="nav-item nav-link">
                          <a class="nav-link" href="{{ route('user.faq') }}" >FAQs</i></a>
                      </li>
+                     <li class="nav-item nav-link">
+                        <a class="nav-link" href="{{ route('user.login') }}">Login </i></a>
+                    </li>
+                    <li class="nav-item nav-link">
+                        <a class="nav-link" href="{{ route('user.register') }}" >Register</i></a>
+                    </li>
                  </ul>
                  <!-- Main Navigation End -->
              </div>

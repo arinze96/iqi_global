@@ -83,7 +83,7 @@ Design and Developed by: Theme_Choices
     ==============================*/
 
     $('nav#mobile-nav').meanmenu({
-        siteLogo: "<a href='index.html'><img src='assets/images/blog/Iqi GlobalFX-02.png' style='width: 50px; height: 50px' /></a>"
+        siteLogo: "<a href='index.html'><img src='assets/images/blog/STABLEINCOME-02.png' style='width: 50px; height: 50px' /></a>"
     });
 
 	/*=============================
