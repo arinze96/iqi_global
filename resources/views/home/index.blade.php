@@ -790,12 +790,28 @@
         </div>
     </section><!-- xxx Google Map End xxx -->
     
-    <div style="width: 400px; height: 250px; position:fixed; top: 250px; z-index: 5000">
+    <div style="width: 400px; height: 80vh; position:fixed; top: 20px; z-index: 5000">
+        <div id="google_translate_element" style="margin-top:70px; margin-left: 10px"></div>
+
+        <script type="text/javascript">
+            var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
+
+            function googleTranslateElementInit() {
+                if (duplicate_google_translate_counter == 0) {
+                    new google.translate.TranslateElement({
+                        pageLanguage: 'en'
+                    }, 'google_translate_element');
+                }
+                duplicate_google_translate_counter++;
+            }
+        </script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+        </script>
         <div id="slider" class="slide-in"
         style="
         flex-direction: row;
         display: flex;
-        margin-top: 200px;
+        margin-top:250px;
         align-items: center;
         justify-content: center;
       ">
