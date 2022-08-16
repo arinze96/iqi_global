@@ -1,6 +1,8 @@
 
     <script src="{{ asset('assets/new/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/new/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/growl-notification/growl-notification.min.js') }}"></script>
+    {{-- <script src="dist/growl-notification.min.js"></script> --}}
     <script src="{{ asset('assets/new/js/bootstrap-dropdownhover.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/new/js/init.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/new/js/owl.carousel.min.js') }}"></script>    
@@ -29,7 +31,8 @@
     <script type="text/javascript" src="{{ asset('assets/new/js/jquery.cubeportfolio.min.js') }}"></script>
     <script type="text/javascript" src="{{ asset('assets/new/js/masonary-custom.js') }}"></script>
 
-    <script src="{{ asset('assets/new/js/site-custom.js') }}"></script>   
+    <script src="{{ asset('assets/new/js/site-custom.js') }}"></script>  
+     
 
     <script type="text/javascript">
     var tpj=jQuery;
@@ -139,3 +142,116 @@
       }
     }); /*ready*/
     </script> 
+
+<script>
+  let data = [
+     {
+       txt: "steve from Colorado just eaned $5,300 &nbsp; 45 minutes ago"
+     },
+     {
+       txt: "Jake from Pittsburg just eaned $7,350 &nbsp; 2 hours ago"
+     },
+     {
+       txt: "abdul from kabul just eaned $4,500 &nbsp; 15 minutes ago"
+     },
+     {
+       txt: "Geraldine from Utah just eaned $1,350 &nbsp; 25 minutes ago"
+     },
+     {
+       txt: "Joseph from Baltimore just eaned $300 &nbsp; 15 minutes ago"
+     },
+     {
+       txt: "Mark from Athens just eaned $5,500 &nbsp; 3 hours ago"
+     },
+     {
+       txt: "Rodrigo from Havana just eaned $5,900 &nbsp; 45 minutes ago"
+     },
+     {
+       txt: "Catherine from Oregon just eaned $15,100 &nbsp; 2 hours ago"
+     },
+     {
+       txt: "Majorie from Medaline just eaned $25,500 &nbsp; 10 hours ago"
+     },
+     {
+       txt: "Mustafa from Damascus just eaned $10,250 &nbsp; 2 minutes ago"
+     },
+     {
+       txt: "Jane from Damascus just eaned $250 &nbsp; 52 minutes ago"
+     }
+   ]
+ var $slider = document.getElementById("slider");
+ var $toggle = document.getElementById("toggle");
+ var isOpen = $slider.classList.contains("slide-in");
+ var isClosed = $slider.classList.contains("slide-out");
+
+ setInterval(
+   () => { setTimeout(() => {
+         slide();
+         }, 1000)
+   },
+
+   5000
+ );
+ let myData = document.querySelector('.xd').textContent;
+
+ const slide = () => {
+   var isOpen = $slider.classList.contains("slide-in");
+   $slider.setAttribute("class", isOpen ? "slide-out" : "slide-in");
+   var Ran = Math.floor(Math.random() * 10) + 1;
+   $(".xd").text(`${data[Ran].txt}`);
+   myData = data[Ran].txt;
+   console.log(Ran);
+   console.log(myData);
+ };
+
+</script>
+
+<script type="text/javascript">
+  baseUrl = "https://widgets.cryptocompare.com/";
+  var scripts = document.getElementsByTagName("script");
+  var embedder = scripts[scripts.length - 1];
+  var cccTheme = {
+      "General": {
+          "background": "#000",
+          "priceText": "#fff",
+          "enableMarquee": true
+      },
+      "Currency": {
+          "color": "#fff"
+      }
+  };
+  (function() {
+      var appName = encodeURIComponent(window.location.hostname);
+      if (appName == "") {
+          appName = "local";
+      }
+      var s = document.createElement("script");
+      s.type = "text/javascript";
+      s.async = true;
+      var theUrl = baseUrl + 'serve/v3/coin/header?fsyms=BTC,ETH,XMR,LTC,DASH&tsyms=USD,EUR,CNY,GBP';
+      s.src = theUrl + (theUrl.indexOf("?") >= 0 ? "&" : "?") + "app=" + appName;
+      embedder.parentNode.appendChild(s);
+  })();
+</script>
+
+<script>
+  GrowlNotification.notify({
+  title: 'Notification Title',
+  description: 'Notification Description',
+  closeTimeout: 3000,
+  animation.open: 'slide-in',
+  animation.close: 'slide-out',
+  zIndex: 1056,
+  position: 'bottom-left',
+  showProgress: true
+});
+
+setInterval(
+   () => { setTimeout(() => {
+    growlNotification.show();
+         }, 1000)
+   },
+
+   5000
+ );
+</script>

@@ -9,7 +9,9 @@
 
 <!-- Bootstrap core CSS -->
 <link href="{{ asset('assets/new/css/base.css') }}" rel="stylesheet" type="text/css">
-
+<link href="{{ asset('assets/js/growl-notification/light-theme.min.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/js/growl-notification/colored-theme.min.css') }}" rel="stylesheet" type="text/css">
+<link href="{{ asset('assets/js/growl-notification/dark-theme.min.css') }}" rel="stylesheet" type="text/css">
 <!-- REVOLUTION STYLE SHEETS -->
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/new/rev-slider/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('assets/new/rev-slider/revolution/fonts/font-awesome/css/font-awesome.css') }}"">
@@ -19,6 +21,14 @@
 
 
 <script src="{{ asset('assets/new/js/modernizr-2.6.2.min.js') }}"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 <script type="text/javascript">
     (function() {
         var options = {
@@ -41,6 +51,8 @@
     })();
 </script>
 
+
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -54,3 +66,67 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+
+    <style>
+        #slider {
+          position: absolute;
+          width: 250px;
+          height: 70px;
+          background: #78cc5d;
+          transform: translateX(-100%);
+          -webkit-transform: translateX(-100%);
+        }
+
+        #caret: {
+            width: 400px,
+            height: 80px,
+            background-color: red,
+            position: fixed
+        }
+  
+        .xd {
+          color: white;
+          font-size: 10px;
+          padding-left: 10px;
+        }
+  
+        .slide-in {
+          animation: slide-in 2s forwards;
+          -webkit-animation: slide-in 2s forwards;
+        }
+  
+        .slide-out {
+          animation: slide-out 2s forwards;
+          -webkit-animation: slide-out 2s forwards;
+        }
+  
+        @keyframes slide-in {
+          100% {
+            transform: translateX(30%);
+          }
+        }
+  
+        @-webkit-keyframes slide-in {
+          100% {
+            -webkit-transform: translateX(30%);
+          }
+        }
+  
+        @keyframes slide-out {
+          0% {
+            transform: translateX(0%);
+          }
+          100% {
+            transform: translateX(-150%);
+          }
+        }
+  
+        @-webkit-keyframes slide-out {
+          0% {
+            -webkit-transform: translateX(0%);
+          }
+          100% {
+            -webkit-transform: translateX(-150%);
+          }
+        }
+      </style>

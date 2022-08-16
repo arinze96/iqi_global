@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,9 +8,11 @@
 
 <body>
 
+
     <!-- xxx Header Start xxx -->
     @include('includes.home_header')
     <!-- xxx Header End xxx -->
+
 
     <!-- Fullscreen Slider Start -->
     <div class="slider bg-navy-blue">
@@ -20,8 +20,7 @@
             data-alias="classic4export" data-source="gallery"
             style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
             <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
-            <div id="rev_slider_1078_1" class="rev_slider fullscreenbanner" style="display:none;"
-                data-version="5.4.1">
+            <div id="rev_slider_1078_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
                 <ul>
                     <!-- MINIMUM SLIDE STRUCTURE -->
                     <li data-index="rs-82" data-transition="random" data-slotamount="default" data-hideafterloop="0"
@@ -31,11 +30,11 @@
                         data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
                         data-param10="" data-description="" data-slicey_shadow="0px 0px 50px 0px transparent">
                         <!-- MAIN IMAGE -->
-                        <img src="{{ asset('assets/new/images/banner_slider_2.jpg') }}" alt="" data-bgposition="center center"
-                            data-kenburns="on" data-duration="7000" data-ease="Linear.easeNone"
-                            data-scalestart="100" data-scaleend="150" data-rotatestart="0" data-rotateend="0"
-                            data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0"
-                            class="rev-slidebg" data-no-retina>
+                        <img src="{{ asset('assets/new/images/banner_slider_2.jpg') }}" alt=""
+                            data-bgposition="center center" data-kenburns="on" data-duration="7000"
+                            data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0"
+                            data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0"
+                            data-offsetend="0 0" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
 
                         <!-- LAYER NR. 1 -->
@@ -47,8 +46,8 @@
                             data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
                             data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
                             data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">Asset Trading & <br> Investment</div>
+                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
+                            Asset Trading & <br> Investment</div>
 
                         <!-- LAYER NR. 11 -->
                         <!-- <div class="tp-caption medium_light_white tp-resizeme"
@@ -104,7 +103,8 @@
                     </li>
                     <li data-transition="random" data-masterspeed="1000">
                         <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                        <img src="{{ asset('assets/new/images/banner_slider_4.jpg') }}" alt="Sky" class="rev-slidebg">
+                        <img src="{{ asset('assets/new/images/banner_slider_4.jpg') }}" alt="Sky"
+                            class="rev-slidebg">
                         <div class="tp-caption tp-resizeme normalWraping layer_1 slider-fonts"
                             data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
                      {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
@@ -137,7 +137,8 @@
                     </li>
                     <li data-transition="random" data-masterspeed="1000">
                         <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                        <img src="{{ asset('assets/new/images/banner_slider_3.jpg') }}" alt="Sky" class="rev-slidebg slider-fonts">
+                        <img src="{{ asset('assets/new/images/banner_slider_3.jpg') }}" alt="Sky"
+                            class="rev-slidebg slider-fonts">
                         <div class="tp-caption tp-resizeme normalWraping layer_1 slider-fonts"
                             data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
                      {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
@@ -161,7 +162,8 @@
                             data-x="center" data-y="center" data-hoffset="0"
                             data-voffset="['150', '200', '150', '140']" data-width="100%" data-height="['auto]"
                             data-whitesapce="['normal']" data-fontsize="16" data-lineheight="" data-fontweight="400"
-                            data-textAlign="center"><a href="{{ route('user.register') }}" class="btn-theme bg-orange"><span>Let’s get
+                            data-textAlign="center"><a href="{{ route('user.register') }}"
+                                class="btn-theme bg-orange"><span>Let’s get
                                     started</span></a></div>
                     </li>
 
@@ -213,12 +215,15 @@
                         </div>
                     </div> <!-- Icon Box End -->
                 </div>
+
+                
                 <!-- xxx Welcome Section xxx -->
 
                 <!-- xxx Client Logos xxx -->
                 <!-- xxx Client Logos End xxx -->
             </div>
         </section>
+
 
         <!-- xxx Helpful Services xxx -->
         <section class="section-pad">
@@ -467,7 +472,8 @@
                         <div class="owl-carousel" id="home-testimonial">
                             <div class="item">
                                 <div class="testimonial-wrap">
-                                    <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}" class="rounded-circle" alt="">
+                                    <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}"
+                                        class="rounded-circle" alt="">
                                     <p>Ever since i started investing on this platform mid last year, i have a
                                         tremendous growth across all my portfolio</p>
                                     <h4>-Jeremy Schulz<span></span></h4>
@@ -484,7 +490,8 @@
                             </div>
                             <div class="item">
                                 <div class="testimonial-wrap">
-                                    <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}" class="rounded-circle" alt="">
+                                    <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}"
+                                        class="rounded-circle" alt="">
                                     <p>it took me a lot of time to understand how to invest on iqiglobalfx, since i
                                         learnt how to invest, my life has never been thesame. </p>
                                     <h4>- Evlyn moreo<span></span></h4>
@@ -502,7 +509,8 @@
                             </div>
                             <div class="item">
                                 <div class="testimonial-wrap">
-                                    <img src="{{ asset('asset/new/images/team/testimonial-1.jpg') }}" class="rounded-circle" alt="">
+                                    <img src="{{ asset('asset/new/images/team/testimonial-1.jpg') }}"
+                                        class="rounded-circle" alt="">
                                     <p>Far far away, behind the word mountains, far from the countries Vokalia and
                                         Consonantia, there live the blind texts. Aliquam gravida, urna quis ornare
                                         imperdiet,
@@ -546,7 +554,8 @@
                     <!-- Blog Wrap -->
                     <div class="col-md-4 col-sm-12">
                         <div class="blog-wrap h-100">
-                            <a href="blog-single.html"><img src="{{ asset('assets/new/images/blog/blog-1.jpg') }}" alt=""></a>
+                            <a href="blog-single.html"><img src="{{ asset('assets/new/images/blog/blog-1.jpg') }}"
+                                    alt=""></a>
                             <div class="inner-content">
                                 <div class="meta-box">
                                     <span><a href="#"><i class="icofont icofont-user-male"></i> By
@@ -566,7 +575,8 @@
                     <!-- Blog Wrap -->
                     <div class="col-md-4 col-sm-12">
                         <div class="blog-wrap h-100">
-                            <a href="blog-single.html"><img src="{{ asset('assets/new/images/blog/blog-2.jpg') }}" alt=""></a>
+                            <a href="blog-single.html"><img src="{{ asset('assets/new/images/blog/blog-2.jpg') }}"
+                                    alt=""></a>
                             <div class="inner-content">
                                 <div class="meta-box">
                                     <span><a href="#"><i class="icofont icofont-user-male"></i> By
@@ -586,7 +596,8 @@
                     <!-- Blog Wrap -->
                     <div class="col-md-4 col-sm-12">
                         <div class="blog-wrap h-100">
-                            <a href="blog-single.html"><img src="{{ asset('assets/new/images/blog/blog-3.jpg') }}" alt=""></a>
+                            <a href="blog-single.html"><img src="{{ asset('assets/new/images/blog/blog-3.jpg') }}"
+                                    alt=""></a>
                             <div class="inner-content">
                                 <div class="meta-box">
                                     <span><a href="#"><i class="icofont icofont-user-male"></i> By
@@ -644,7 +655,8 @@
 
                     </div>
                     <div class="col-lg-5 col-12 p-0 pos-rel">
-                        <img src="{{ asset('assets/new/images/banner_slider_2.jpg') }}" class="w-100" alt="">
+                        <img src="{{ asset('assets/new/images/banner_slider_2.jpg') }}" class="w-100"
+                            alt="">
                         <div class="video-icon">
                             <a class="rounded-circle play-video video-play-button" href="#">
                                 <i class="icofont-play"></i>
@@ -764,7 +776,7 @@
                     </div>
                 </div>
 
-                
+
             </div>
         </section>
     </div>
@@ -777,8 +789,33 @@
                 style="border:0;" allowfullscreen=""></iframe>
         </div>
     </section><!-- xxx Google Map End xxx -->
+    
+    <div style="width: 400px; height: 250px; position:fixed; top: 250px; z-index: 5000">
+        <div id="slider" class="slide-in"
+        style="
+        flex-direction: row;
+        display: flex;
+        margin-top: 200px;
+        align-items: center;
+        justify-content: center;
+      ">
+        <div style="width: 10%; height: 100%; background-color: #78cc5d"></div>
+
+        <h4 class="xd">
+        </h4>
+    </div>
+    </div>
 
     @include('includes.home_footer')
+
+    <div id="caret">
+    {{-- <div id="slider" class="slide-in">
+        <div style="width: 10%; height: 100%; background-color: black"></div>
+
+        <h4 class="xd">
+        </h4>
+    </div> --}}
+    </div>
     @include('includes.home_script')
 </body>
 
