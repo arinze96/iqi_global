@@ -4,7 +4,7 @@
             {{-- <img src="{{ asset("assets/images/just1.jpg") }}" class="logo-icon" alt="logo icon"> --}}
         </div>
         <div>
-            <h5 class="logo-text" style="color: rgb(14,13,113)">BristlAssets</h5>
+            <h5 class="logo-text" style="color: #77cc5e">Stableincome</h5>
         </div>
         <div class="toggle-icon ms-auto"><i class="fa fa-arrow-left" aria-hidden="true"></i>
         </div>

@@ -4,7 +4,7 @@
             {{-- <img src="{{ asset("assets/images/logo/") }}" class="logo-icon" alt="logo icon"> --}}
         </div>
         <div>
-            <h5 class="logo-text" style="color: #77cc5e">Iqiglobalfx</h5>
+            <h5 class="logo-text" style="color: #77cc5e">Stableincome</h5>
         </div>
         <div class="toggle-icon ms-auto"><i class='bx bx-arrow-to-left'></i>
         </div>
