@@ -48,7 +48,7 @@
      <nav class="navbar navbar-expand-lg bdr-nav bg-transparent">
          <div class="container-lg text-nowrap px-0">
              <div class="d-flex mr-auto">
-                 <a class="navbar-brand" href="index.html">
+                 <a class="navbar-brand" href="{{ route('app.home') }}">
                      <img src="{{ asset('assets/images/stableincome.png') }}" alt="">
                  </a>
              </div>
