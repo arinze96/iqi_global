@@ -94,7 +94,7 @@
       </div>
 
       <div class="copyrights">
-        © Copyright 2022 <span>|</span> <a href="http://mannatstudio.com/html/consultit/">IQIGLOBALFX</a><a href="https://themeforest.net/user/mannatstudio"></a> <span>|</span> All Rights Reserved
+        © Copyright 2022 <span>|</span> <a href="http://mannatstudio.com/html/consultit/">STABLEINCOME</a><a href="https://themeforest.net/user/mannatstudio"></a> <span>|</span> All Rights Reserved
       </div>
     </footer>
   </section>
