@@ -314,7 +314,7 @@
                         <!-- Heading Main -->
                         <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
                             <h1 class="heading-main">
-                                <span>FOREX MARKET</span>
+                                <span style="color:#FFF">FOREX MARKET</span>
                                 REALTIME CURRENCY PAIR PRICE CHANGE
                             </h1>
                         </div>
@@ -382,7 +382,7 @@
                             <!-- Heading Main -->
                             <h1 class="heading-main text-left mb-4 wow fadeInDown" data-wow-duration="0"
                                 data-wow-delay="0s">
-                                <span>Why Choose</span>
+                                <span style="color:#FFF">Why Choose</span>
                                 STABLEINCOME!
                             </h1>
                             <!-- Heading Main -->
@@ -463,7 +463,7 @@
                     <!-- Heading Main -->
                     <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
                         <h1 class="heading-main">
-                            <span>What Our</span>
+                            <span style="color:#FFF">What Our</span>
                             Customers Saying
                         </h1>
                     </div>
@@ -474,9 +474,9 @@
                                 <div class="testimonial-wrap">
                                     <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}"
                                         class="rounded-circle" alt="">
-                                    <p>Ever since i started investing on this platform mid last year, i have a
+                                    <p style="color:#FFF">Ever since i started investing on this platform mid last year, i have a
                                         tremendous growth across all my portfolio</p>
-                                    <h4>-Jeremy Schulz<span></span></h4>
+                                    <h4 style="color:#FFF">-Jeremy Schulz<span></span></h4>
                                     <div class="star-rating">
                                         <i class="icofont icofont-star"></i>
                                         <i class="icofont icofont-star"></i>
@@ -492,9 +492,9 @@
                                 <div class="testimonial-wrap">
                                     <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}"
                                         class="rounded-circle" alt="">
-                                    <p>it took me a lot of time to understand how to invest on iqiglobalfx, since i
+                                    <p style="color:#FFF">it took me a lot of time to understand how to invest on iqiglobalfx, since i
                                         learnt how to invest, my life has never been thesame. </p>
-                                    <h4>- Evlyn moreo<span></span></h4>
+                                    <h4 style="color:#FFF">- Evlyn moreo<span></span></h4>
                                     <div class="star-rating">
                                         <i class="icofont icofont-star"></i>
                                         <i class="icofont icofont-star"></i>
@@ -511,11 +511,11 @@
                                 <div class="testimonial-wrap">
                                     <img src="{{ asset('asset/new/images/team/testimonial-1.jpg') }}"
                                         class="rounded-circle" alt="">
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and
+                                    <p style="color:#FFF" >Far far away, behind the word mountains, far from the countries Vokalia and
                                         Consonantia, there live the blind texts. Aliquam gravida, urna quis ornare
                                         imperdiet,
                                         urna lacus egestas massa. </p>
-                                    <h4>- John Gerry <span>Richar & Sons</span></h4>
+                                    <h4 style="color:#FFF">- John Gerry <span style="color:#FFF">Richar & Sons</span></h4>
                                     <div class="star-rating">
                                         <i class="icofont icofont-star"></i>
                                         <i class="icofont icofont-star"></i>
@@ -544,7 +544,7 @@
                         <!-- Heading Main -->
                         <div class="col-sm-12 wow fadeInDown" data-wow-duration="0" data-wow-delay="0s">
                             <h1 class="heading-main">
-                                <span>Company's News</span>
+                                <span style="color:#FFF">Company's News</span>
                                 Recent Blog
                             </h1>
                         </div>
@@ -629,7 +629,7 @@
                             <!-- Heading Main -->
                             <h1 class="heading-main text-left mb-4 wow fadeInDown" data-wow-duration="0"
                                 data-wow-delay="0s">
-                                <span>Guidelines</span>
+                                <span style="color:#FFF">Guidelines</span>
                                 STABLEINCOME!
                             </h1>
                             <!-- Heading Main -->
@@ -674,9 +674,9 @@
             <div class="container">
                 <div class="row text-center wow fadeInDown" data-wow-duration="0" data-wow-delay="0.5s">
                     <div class="col-sm-12 col-md-8 mx-auto">
-                        <h3 class="h3-xl fw-7 txt-blue">Here to Help Your! <span class="lead fw-5 txt-ligt-gray">Every
+                        <h3 class="h3-xl fw-7 txt-blue" style="color:#FFF">Here to Help Your! <span style="color:#FFF" class="lead fw-5 txt-ligt-gray">Every
                                 Business Need.</span></h3>
-                        <p class="mt-4">Through financial clarity, we provide you with the financial confidence you
+                        <p class="mt-4" style="color:#FFF">Through financial clarity, we provide you with the financial confidence you
                             need to achieve.</p>
                         <a href="#" class="btn-theme bg-orange mt-2">Get A Free Quote <i
                                 class="icofont-rounded-right"></i></a>

@@ -531,6 +531,7 @@ h2.h2-xl { font-size: 1.5rem; }     /* 24px */
 }
 .section-pad{
     padding: 70px 0;
+    background-color: #004d73;
 }
 .over-auto{
     overflow: hidden;
@@ -1454,6 +1455,7 @@ header.navbar-fixed-top.header-alt{
 }
 .blog-wrap .inner-content{
     padding: 2.5rem 2rem;
+    background-color: #fff;
 }
 .blog-wrap {
     -webkit-box-shadow: 0px 5px 40px 0px rgba(0, 0, 0, 0.1);
