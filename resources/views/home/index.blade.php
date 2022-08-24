@@ -10,171 +10,27 @@
 
 
     <!-- xxx Header Start xxx -->
-    @include('includes.home_header')
+    {{-- @include('includes.home_header') --}}
     <!-- xxx Header End xxx -->
 
 
     <!-- Fullscreen Slider Start -->
-    <div class="slider bg-navy-blue">
-        <div id="rev_slider_1078_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container"
-            data-alias="classic4export" data-source="gallery"
-            style="margin:0px auto;background-color:transparent;padding:0px;margin-top:0px;margin-bottom:0px;">
-            <!-- START REVOLUTION SLIDER 5.4.1 fullwidth mode -->
-            <div id="rev_slider_1078_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
-                <ul>
-                    <!-- MINIMUM SLIDE STRUCTURE -->
-                    <li data-index="rs-82" data-transition="random" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="Power4.easeOut" data-easeout="Power4.easeOut"
-                        data-masterspeed="1000" data-thumb="http://www.mannatstudio.com/" data-rotate="0"
-                        data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3=""
-                        data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9=""
-                        data-param10="" data-description="" data-slicey_shadow="0px 0px 50px 0px transparent">
-                        <!-- MAIN IMAGE -->
-                        <img src="{{ asset('assets/new/images/banner_slider_2.jpg') }}" alt=""
-                            data-bgposition="center center" data-kenburns="on" data-duration="7000"
-                            data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="150" data-rotatestart="0"
-                            data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0"
-                            data-offsetend="0 0" class="rev-slidebg" data-no-retina>
-                        <!-- LAYERS -->
+    <div class="slider bg-navy-blue" id="particles-js" style="justify-content: center; align-item: center">
+            <div class="container d-flex" style=" z-index:200; background-color: rgb(170, 73, 73)">
+            
 
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption tp-resizeme NotGeneric-Title" id="slide-82-layer-2"
-                            data-blendmode=”color-dodge“ data-x="['center','center','center','center']"
-                            data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']"
-                            data-voffset="['-70','-70','-70','-70']" data-fontsize="['70','60','60','40']"
-                            data-lineheight="['80','70','70','40']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":200,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]">
-                            Asset Trading & <br> Investment</div>
+                <div class="col-lg-6 col-12" style="background-color: red">
 
-                        <!-- LAYER NR. 11 -->
-                        <!-- <div class="tp-caption medium_light_white tp-resizeme"
-                id="slide-82-layer-3"
+                   <h1 style="color: #78cc5d">here</h1>
 
-                data-blendmode=”color-dodge“
-                data-x="['center','center','center','center']"
-                data-hoffset="['0','0','0','0']"
-                data-y="['middle','middle','middle','middle']"
-                data-voffset="['-10','-10','-10','-10']"
-                data-width="none"
-                data-height="none"
-                data-whitespace="nowrap"
-                data-type="text"
-                data-responsive_offset="on"
-                data-frames='[{"delay":500,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                data-textAlign="['inherit','inherit','inherit','inherit']"
-
-                data-paddingtop="[0,0,0,0]"
-                data-paddingright="[0,0,0,0]"
-                data-paddingbottom="[0,0,0,0]"
-                data-paddingleft="[0,0,0,0]"
-
-                data-fontsize="['28','28','28','24']"
-                data-lineheight="['34','34','34','50']"
-
-                >Without consulting, plans stay as plans. </div> -->
-                        <!-- LAYER NR. 12 -->
-                        <div class="tp-caption tp-resizeme small_light_white " id="slide-82-layer-4"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['60','60','60','60']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":600,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            data-fontsize="['16','16','16','16']" data-lineheight="['30','30','30','20']">Combining a
-                            Transparent Trading and investment Environment <br> for both experienced traders and non
-                            experienced traders.</div>
-
-                        <!-- LAYER NR. 12 -->
-                        <div class="tp-caption tp-resizeme btn-theme bg-navy-blue rev-btn" id="slide-82-layer-5"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['140','140','140','140']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":750,"speed":1000,"sfx_effect":"blockfromleft","sfxcolor":"#ffffff","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[30,30,30,30]" data-fontsize="['14','14','14','14']"
-                            data-lineheight="['16','16','16','16']">Learn More <i class="icofont-rounded-right"></i>
-                        </div>
-                    </li>
-                    <li data-transition="random" data-masterspeed="1000">
-                        <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                        <img src="{{ asset('assets/new/images/banner_slider_4.jpg') }}" alt="Sky"
-                            class="rev-slidebg">
-                        <div class="tp-caption tp-resizeme normalWraping layer_1 slider-fonts"
-                            data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                     {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                            data-x="['70', '70', '70', '50']" data-y="['180', '180', '180', '10']" data-hoffset="0"
-                            data-voffset="['-124', '-110', '-100', '-50']" data-width="100%" data-height="['auto]"
-                            data-whitesapce="['normal']" data-fontsize="20" data-lineheight="36"
-                            data-fontweight="700" data-letterspacing="0" data-color="#77cc5e" data-textAlign="left">
-                            What We Do</div>
-                        <div class="tp-caption tp-resizeme NotGeneric-Title"
-                            data-frames='[{"delay":1600,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                     {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                            data-x="['70', '70', '70', '50']" data-y="['220', '220', '220', '50']"
-                            data-hoffset="['12', '200', '10', '25']" data-voffset="['0', '0', '10', '25']"
-                            data-width="100%" data-height="['auto]" data-whitesapce="['normal']"
-                            data-word-wrap="['normal']" data-white-break="['break-all']"
-                            data-fontsize="['70', '70', '60', '40']" data-lineheight="['70', '70', '70', '45']"
-                            data-fontweight="700" data-letterspacing="['0', '0', '0', '0']" data-color="#FFF"
-                            data-textAlign="left" style="color: #FFF;">We Create Value <br>& Build Confidence</div>
-
-                        <div class="tp-caption tp-resizeme rev-btn"
-                            data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                     {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                            data-x="['40', '70', '70', '25']" data-y="['400', '500', '500', '180']" data-hoffset="0"
-                            data-voffset="0" data-width="100%" data-height="['auto]" data-whitesapce="['normal']"
-                            data-fontweight="400" data-textAlign="left" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[30,30,30,30]" data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[30,30,30,30]" data-fontsize="['14','14','14','17']"
-                            data-lineheight="['16','16','16','16']"><a href="#"
-                                class="btn-theme bg-orange"><span>Let’s get started</span></a></div>
-                    </li>
-                    <li data-transition="random" data-masterspeed="1000">
-                        <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-                        <img src="{{ asset('assets/new/images/banner_slider_3.jpg') }}" alt="Sky"
-                            class="rev-slidebg slider-fonts">
-                        <div class="tp-caption tp-resizeme normalWraping layer_1 slider-fonts"
-                            data-frames='[{"delay":1300,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                     {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                            data-x="center" data-y="center" data-hoffset="0"
-                            data-voffset="['-90', '-110', '-100', '-50']" data-width="100%" data-height="['auto]"
-                            data-whitesapce="['normal']" data-fontsize="20" data-lineheight="36"
-                            data-fontweight="700" data-letterspacing="0" data-color="#77cc5e"
-                            data-textAlign="center">We Provide Best</div>
-                        <div class="tp-caption tp-resizeme normalWraping layer_2 slider-fonts"
-                            data-frames='[{"delay":1600,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                     {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                            data-x="center" data-y="center" data-hoffset="0" data-voffset="['12', '20', '10', '25']"
-                            data-width="100%" data-height="['auto]" data-whitesapce="['normal']"
-                            data-word-wrap="['normal']" data-white-break="['break-all']"
-                            data-fontsize="['70', '70', '60', '40']" data-lineheight="['70', '80', '65', '50']"
-                            data-fontweight="700" data-letterspacing="['0']" data-color="#FFF"
-                            data-textAlign="center">Finance & Consulting <br> Solutions</div>
-                        <div class="tp-caption tp-resizeme rev-btn"
-                            data-frames='[{"delay":2000,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},
-                     {"delay":"wait","speed":300,"frame":"999","to":"auto:auto;","ease":"Power3.easeInOut"}]'
-                            data-x="center" data-y="center" data-hoffset="0"
-                            data-voffset="['150', '200', '150', '140']" data-width="100%" data-height="['auto]"
-                            data-whitesapce="['normal']" data-fontsize="16" data-lineheight="" data-fontweight="400"
-                            data-textAlign="center"><a href="{{ route('user.register') }}"
-                                class="btn-theme bg-orange"><span>Let’s get
-                                    started</span></a></div>
-                    </li>
-
-                    <!-- SLIDE  -->
-
-                </ul>
-                <div class="tp-bannertimer tp-bottom"
-                    style="height: 7px; background-color: rgba(255, 255, 255, 0.25);"></div>
-            </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <h1>here</h1>
+                </div>
+            
         </div>
-    </div>
+        </div>
+    
     <!-- Fullscreen Slider End -->
 
     <div id="body-content" class="no-overflow">
@@ -216,7 +72,7 @@
                     </div> <!-- Icon Box End -->
                 </div>
 
-                
+
                 <!-- xxx Welcome Section xxx -->
 
                 <!-- xxx Client Logos xxx -->
@@ -474,7 +330,8 @@
                                 <div class="testimonial-wrap">
                                     <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}"
                                         class="rounded-circle" alt="">
-                                    <p style="color:#FFF">Ever since i started investing on this platform mid last year, i have a
+                                    <p style="color:#FFF">Ever since i started investing on this platform mid last
+                                        year, i have a
                                         tremendous growth across all my portfolio</p>
                                     <h4 style="color:#FFF">-Jeremy Schulz<span></span></h4>
                                     <div class="star-rating">
@@ -492,7 +349,8 @@
                                 <div class="testimonial-wrap">
                                     <img src="{{ asset('assets/new/images/team/testimonial-1.jpg') }}"
                                         class="rounded-circle" alt="">
-                                    <p style="color:#FFF">it took me a lot of time to understand how to invest on iqiglobalfx, since i
+                                    <p style="color:#FFF">it took me a lot of time to understand how to invest on
+                                        iqiglobalfx, since i
                                         learnt how to invest, my life has never been thesame. </p>
                                     <h4 style="color:#FFF">- Evlyn moreo<span></span></h4>
                                     <div class="star-rating">
@@ -511,11 +369,13 @@
                                 <div class="testimonial-wrap">
                                     <img src="{{ asset('asset/new/images/team/testimonial-1.jpg') }}"
                                         class="rounded-circle" alt="">
-                                    <p style="color:#FFF" >Far far away, behind the word mountains, far from the countries Vokalia and
+                                    <p style="color:#FFF">Far far away, behind the word mountains, far from the
+                                        countries Vokalia and
                                         Consonantia, there live the blind texts. Aliquam gravida, urna quis ornare
                                         imperdiet,
                                         urna lacus egestas massa. </p>
-                                    <h4 style="color:#FFF">- John Gerry <span style="color:#FFF">Richar & Sons</span></h4>
+                                    <h4 style="color:#FFF">- John Gerry <span style="color:#FFF">Richar & Sons</span>
+                                    </h4>
                                     <div class="star-rating">
                                         <i class="icofont icofont-star"></i>
                                         <i class="icofont icofont-star"></i>
@@ -674,9 +534,11 @@
             <div class="container">
                 <div class="row text-center wow fadeInDown" data-wow-duration="0" data-wow-delay="0.5s">
                     <div class="col-sm-12 col-md-8 mx-auto">
-                        <h3 class="h3-xl fw-7 txt-blue" style="color:#FFF">Here to Help Your! <span style="color:#FFF" class="lead fw-5 txt-ligt-gray">Every
+                        <h3 class="h3-xl fw-7 txt-blue" style="color:#FFF">Here to Help Your! <span
+                                style="color:#FFF" class="lead fw-5 txt-ligt-gray">Every
                                 Business Need.</span></h3>
-                        <p class="mt-4" style="color:#FFF">Through financial clarity, we provide you with the financial confidence you
+                        <p class="mt-4" style="color:#FFF">Through financial clarity, we provide you with the
+                            financial confidence you
                             need to achieve.</p>
                         <a href="#" class="btn-theme bg-orange mt-2">Get A Free Quote <i
                                 class="icofont-rounded-right"></i></a>
@@ -789,9 +651,9 @@
                 style="border:0;" allowfullscreen=""></iframe>
         </div>
     </section><!-- xxx Google Map End xxx -->
-    
+
     <div style="width: 400px; height: 80vh; position:fixed; top: 20px; z-index: 5000">
-        <div id="google_translate_element" style="margin-top:70px; margin-left: 10px"></div>
+        {{-- <div id="google_translate_element" style="margin-top:70px; margin-left: 10px"></div>
 
         <script type="text/javascript">
             var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
@@ -806,26 +668,26 @@
             }
         </script>
         <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-        </script>
+        </script> --}}
         <div id="slider" class="slide-in"
-        style="
+            style="
         flex-direction: row;
         display: flex;
         margin-top:250px;
         align-items: center;
         justify-content: center;
       ">
-        <div style="width: 10%; height: 100%; background-color: #78cc5d"></div>
+            <div style="width: 10%; height: 100%; background-color: #78cc5d"></div>
 
-        <h4 class="xd">
-        </h4>
-    </div>
+            <h4 class="xd">
+            </h4>
+        </div>
     </div>
 
     @include('includes.home_footer')
 
     <div id="caret">
-    {{-- <div id="slider" class="slide-in">
+        {{-- <div id="slider" class="slide-in">
         <div style="width: 10%; height: 100%; background-color: black"></div>
 
         <h4 class="xd">
